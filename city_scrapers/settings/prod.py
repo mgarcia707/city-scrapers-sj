@@ -61,9 +61,9 @@ CITY_SCRAPERS_STATUS_CONTAINER = S3_BUCKET
 
 # Uncomment the FEED_URI for whichever provider you're using
 
- FEED_URI = "s3://{bucket}/%(year)s/%(month)s/%(day)s/%(hour_min)s/%(name)s.json".format(  # noqa
-     bucket=S3_BUCKET
- )
+FEED_URI = (
+    "s3://{bucket}/%(year)s/%(month)s/%(day)s/%(hour_min)s/%(name)s.json"
+).format(bucket=S3_BUCKET)
 
 # FEED_URI = (
 #     "azure://{account_name}:{account_key}@{container}"

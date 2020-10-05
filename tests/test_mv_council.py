@@ -2,8 +2,7 @@ import json
 from datetime import datetime
 from os.path import dirname, join
 
-import pytest
-from city_scrapers_core.constants import NOT_CLASSIFIED
+import pytest  # noqa
 from freezegun import freeze_time
 
 from city_scrapers.spiders.mv_council import MvCouncilSpider
@@ -12,10 +11,9 @@ freezer = freeze_time("2020-09-01")
 freezer.start()
 
 with open(
-    join(
-        dirname(__file__),
-        "files",
-        "City of Mountain View - Meetings.htm"), "r", encoding="utf-8"
+    join(dirname(__file__), "files", "City of Mountain View - Meetings.htm"),
+    "r",
+    encoding="utf-8",
 ) as f:
     test_response = json.load(f)
 
@@ -29,9 +27,11 @@ def test_tests():
     print("Please write some tests for this spider or at least disable this one.")
     assert False
 
+
 """
 Uncomment below
 """
+
 
 def test_title():
     assert parsed_items[0]["title"] == "EXPECTED TITLE"
