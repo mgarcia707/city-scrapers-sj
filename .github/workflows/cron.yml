@@ -15,7 +15,7 @@ env:
   AUTOTHROTTLE_START_DELAY: 1.5
   AUTOTHROTTLE_TARGET_CONCURRENCY: 3.0
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_SECRET_ACCESS_KEY_ID: ${{ secrets.AWS_SECRET_ACCESS_KEY_ID }}
   S3_BUCKET: ${{ secrets.S3_BUCKET }}
   # Setup Sentry, add the DSN to secrets and uncomment here
   # SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
