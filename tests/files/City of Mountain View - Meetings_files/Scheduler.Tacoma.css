@@ -1,0 +1,471 @@
+.RadScheduler_Tacoma {
+    color: black;
+    font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif
+}
+.RadScheduler_Tacoma .rsMonthView .rsWrap {
+    line-height: 1 !important;
+}
+.RadScheduler_Tacoma .rsMonthView .rsWrap a,
+.RadScheduler_Tacoma .rsContent.rsWeekView a.rsDateHeader {
+    color: white !important;
+}
+.RadScheduler_Tacoma .rsMonthView .rsWrap div.rsAptContent > div > a {
+    color:black !important;
+}
+.RadScheduler_Tacoma .rsSubHeader {
+    border-top: 1px solid #688caf;
+    color: #567db0;
+    background-color: #d7e6f7
+}
+.RadScheduler_Tacoma,
+.RadScheduler_Tacoma input,
+.RadScheduler_Tacoma select,
+.RadScheduler_Tacoma textarea {
+    color: #333;
+    font: normal 12px/14px "Segoe UI", Arial, sans-serif
+}
+.RadScheduler_Tacoma a {
+    color: black !important;
+}
+.RadScheduler_Tacoma a.rcFastPrev,
+.RadScheduler_Tacoma a.rcPrev,
+.RadScheduler_Tacoma a.rcNext,
+.RadScheduler_Tacoma a.rcFastNext {
+    color: white !important;
+}
+.RadScheduler_Tacoma textarea {
+    background: #fff
+}
+.RadScheduler_Tacoma .rsHeader .rsDatePickerCalendar {
+    background-color: white;
+    border-width: 1px;
+}
+.RadScheduler_Tacoma .rsHeader,
+.RadScheduler_Tacoma .rsHeader ul a:hover,
+.RadScheduler_Tacoma .rsHeader ul a:hover span,
+.RadScheduler_Tacoma .rsHeader .rsSelected,
+.RadScheduler_Tacoma .rsHeader .rsSelected em,
+.RadScheduler_Tacoma .rsHeader .rsDatePickerActivator,
+.RadScheduler_Tacoma .rsHeader .rsPrevDay,
+.RadScheduler_Tacoma .rsHeader .rsNextDay {
+    background-image: url('Scheduler/rsSprites.png')
+}
+.RadScheduler_Tacoma .rsHeader {
+    border: 1px solid #688caf
+}
+.RadScheduler_Tacoma .rsHeader,
+.RadScheduler_Tacoma .rsHeader a:hover {
+    color: #000
+}
+.RadScheduler_Tacoma .rsCategoryBlue {
+    color: #000000;
+    background-color: white;
+}
+.RadScheduler_Tacoma .rsHeader a {
+    color: #239
+}
+.RadScheduler_Tacoma div.rsHeader .rsPrevDay {
+    margin: 6px 0 0 3px;
+    background-position: 0 -48px
+}
+.RadScheduler_Tacoma div.rsHeader .rsNextDay {
+    margin: 6px 6px 0 3px;
+    background-position: -16px -48px
+}
+.RadScheduler_Tacoma div.rsHeader a.rsPrevDay:hover {
+    background-position: -70px -48px
+}
+.RadScheduler_Tacoma div.rsHeader a.rsNextDay:hover {
+    background-position: -86px -48px
+}
+.RadScheduler_Tacoma .rsContent {
+    background: #fff
+}
+.RadScheduler_Tacoma .rsHorizontalHeaderTable {
+    color: #239;
+    background: #e4e4e4
+}
+.RadScheduler_Tacoma .rsHorizontalHeaderWrapper {
+    border-color: #a7bac5;
+    background: #d6e5f3;
+}
+.RadScheduler_Tacoma .rsSpacerCell,
+.RadScheduler_Tacoma .rsAllDayHeader,
+.RadScheduler_Tacoma .rsVerticalHeaderWrapper,
+.RadScheduler_Tacoma .rsVerticalHeaderTable {
+    background: #4d6381;
+}
+.RadScheduler_Tacoma .rsVerticalHeaderTable th {
+    border-color: #868686 #5d8cc9;
+    color: White;
+}
+.RadScheduler_Tacoma .rsHorizontalHeaderTable th {
+    border-color: #a7bac5;
+    background-color: #C3D9F1;
+    background-image: url('Scheduler/rsSprites.png')
+}
+.RadScheduler_Tacoma .rsVerticalHeaderTable th {
+    border-color: transparent #5d8cc9;
+    border-top: 0
+}
+.RadScheduler_Tacoma .rsVerticalHeaderTable .rsAlt th {
+    border-color: #6593cf #5d8cc9
+}
+.RadScheduler_Tacoma .rsAllDayRow {
+    background: #d6e5f3
+}
+.RadScheduler_Tacoma .rsSpacerCell,
+.RadScheduler_Tacoma .rsAllDayHeader,
+.RadScheduler_Tacoma .rsVerticalHeaderTable .rsAllDayHeader {
+    color: White;
+    border-color: #a7bac5 #5d8cc9
+}
+.RadScheduler_Tacoma .rsAllDayRow td,
+.RadScheduler_Tacoma .rsContentTable .rsAllDayRow td {
+    border-color: #a7bac5;
+    border-style: solid
+}
+.RadScheduler_Tacoma .rsVerticalHeaderTable .rsMainHeader th {
+    border-bottom-color: #A7BAC5
+}
+.RadScheduler_Tacoma .rsSpacerCell,
+.RadScheduler_Tacoma .rsContent .rsAllDayHeader {
+    border-bottom-color: #6593cf
+}
+.RadScheduler_Tacoma .rsContent,
+.RadScheduler_Tacoma .rsTopWrap .rsFooter {
+    border: 1px solid #688caf;
+    border-top: 0
+}
+.RadScheduler_Tacoma .rsContentTable td {
+    border-color: #e8eaec #d0d7e5;
+    border-bottom-style: dotted
+}
+.RadScheduler_Tacoma .rsContentTable .rsAlt td {
+    border-color: #d0d7e5;
+    border-bottom-style: solid
+}
+.RadScheduler_Tacoma .rsMonthView .rsOtherMonth {
+    background-color: #F5F5F5
+}
+.RadScheduler_Tacoma .rsApt .rsArrowTop,
+.RadScheduler_Tacoma .rsApt .rsArrowBottom,
+.RadScheduler_Tacoma .rsApt .rsArrowLeft,
+.RadScheduler_Tacoma .rsApt .rsArrowRight,
+.RadScheduler_Tacoma .rsApt .rsAptDelete,
+.RadScheduler_Tacoma .rsApt .rsAptResize,
+.RadScheduler_Tacoma .rsApt .rsAptReminder,
+.RadScheduler_Tacoma .rsApt .rsAptRecurrence,
+.RadScheduler_Tacoma .rsApt .rsAptRecurrenceException {
+    background-color: transparent;
+    background-image: url('Scheduler/rsSprites.png');
+    background-repeat: no-repeat
+}
+.RadScheduler_Tacoma .rsApt .rsAptDelete {
+    width: 22px
+}
+.RadScheduler_Tacoma .rsAptCreate,
+.RadScheduler_Tacoma .rsMonthView .rsAptCreate {
+    background-color: #ECF4FF;
+    background-image: url('Scheduler/rsSprites.png');
+    background-repeat: repeat-x
+}
+.RadScheduler_Tacoma .rsAptCreateRow2,
+.RadScheduler_Tacoma .rsMonthView .rsAptCreateRow2 {
+    background-color: #ECF4FF;
+    background-image: url('Scheduler/rsSprites.png');
+    background-repeat: repeat-x
+}
+.RadScheduler_Tacoma .rsNonWorkHour,
+.RadScheduler_Tacoma .rsSunCol,
+.RadScheduler_Tacoma .rsSatCol {
+    background-color: #f5fcff
+}
+.RadScheduler_Tacoma .rsAptCreateRow3,
+.RadScheduler_Tacoma .rsMonthView .rsAptCreateRow3,
+.RadScheduler_Tacoma .rsAptCreateRow4,
+.RadScheduler_Tacoma .rsMonthView .rsAptCreateRow4,
+.RadScheduler_Tacoma .rsAptCreateRow5,
+.RadScheduler_Tacoma .rsMonthView .rsAptCreateRow5 {
+    background: #ECF4FF
+}
+.RadScheduler_Tacoma .rsSelectedSlot,
+.RadScheduler_Tacoma .rsMonthView .rsSelectedSlot {
+    background: #ffda96;
+    border-color: #efca86
+}
+.RadScheduler_Tacoma .rsContentTable td.rsAptCreate.rsSelectedSlot {
+    background: #efca86;
+    border-color: #dfba76
+}
+.RadScheduler_Tacoma .rsContentTable td.rsSelectedSlot {
+    background: #ffda96;
+    border-color: #efca86
+}
+.RadScheduler_Tacoma .rsAptIn,
+.RadScheduler_Tacoma .rsAptMid,
+.RadScheduler_Tacoma .rsAptContent {
+    border-color: #6187b8
+}
+.RadScheduler_Tacoma .rsAptContent {} .RadScheduler_Tacoma .rsAptSimple {
+    background-color: #c7d8ed;
+    border-color: #6187b8
+}
+.RadScheduler_Tacoma .rsMonthView .rsDateBox {
+    background-color: #d0dbed;
+    background-image: url('Scheduler/rsSprites.png');
+    border-bottom: 1px solid #81a5da
+}
+.RadScheduler_Tacoma .rsMonthView .rsAptCreate .rsDateBox {
+    border-bottom: 1px solid #f99331;
+}
+.RadScheduler_Tacoma .rsMonthView .rsAptCreate {
+    background-image: none
+}
+.RadScheduler_Tacoma .rsMonthView .rsContentTable td {
+    border-color: #d0d7e5;
+    border-style: solid
+}
+.RadScheduler_Tacoma .rsTopWrap .rsContent.rsMonthView .rsContentWrapper .rsRow .rsWrap .rsApt .rsAptContent .meeting_notViewable {
+    color: black !important;
+}
+.RadScheduler_Tacoma .rsContent .rsMonthView .rsContentWrapper .rsAptContent .meeting_NoMeeting {
+    color: red !important;
+}
+.RadScheduler_Tacoma .rsContent .rsMonthView .rsContentWrapper .rsAptContent .meeting_notViewableDraft {
+    color: darkgreen !important;
+}
+.RadScheduler_Tacoma div.rsFooter {
+    background-color: #f0fafd;
+    background-image: url('Scheduler/rsSprites.png');
+    background-repeat: repeat-x;
+    border-color: #a2a2a2;
+}
+.RadScheduler_Tacoma div.rsFooter a {
+    color: #239;
+    background-color: transparent;
+    background-image: url('Scheduler/rsSprites.png');
+    background-repeat: no-repeat
+}
+.RadScheduler_Tacoma div.rsFooter a:hover {
+    color: #000
+}
+.RadScheduler_Tacoma .rsEditOptions a,
+.RadScheduler_Tacoma .rsAptEditResizeHandle,
+.RadScheduler_Tacoma .rsAptEditFormWrapper {
+    background-image: url('Scheduler/rsSprites.png')
+}
+.RadScheduler_Tacoma .rsAptEditFormOuter,
+.RadScheduler_Tacoma .rsAptEditFormInner {
+    background-image: url('Scheduler/rsInlineEditHSprite.png')
+}
+.RadScheduler_Tacoma .rsAptEditFormMiddle,
+.RadScheduler_Tacoma .rsAptEditFormMiddle2 {
+    background-image: url('Scheduler/rsInlineEditVSprite.png');
+}
+.RadScheduler_Tacoma .rsAptEditFormWrapper .rsAptEditTextareaWrapper {
+    border-color: #9cb6c5;
+    background: #fff
+}
+.RadScheduler_Tacoma .rsAptEditFormWrapper .rsAptEditTextareaWrapper textarea {
+    background: #fff
+}
+.RadScheduler_Tacoma .rsAptEditFormWrapper .rsTemplateWrapper,
+.RadScheduler_Tacoma .rsAptEditFormWrapper .rsEditOptions {
+    background: #BFD3EB
+}
+.RadScheduler_Tacoma .rsAdvancedEdit .rsAdvContentWrapper {
+    background: #fff;
+    border: 1px solid #9ebfdb;
+    border-top-color: #9BAFCA
+}
+.RadScheduler_Tacoma div.rsAdvancedModal div.rsAdvContentWrapper {
+    border-top: 0
+}
+.RadScheduler_Tacoma div.rsAdvancedModal .rsAdvButtonWrapper {
+    padding: 10px 10px 18px 0;
+    _padding: 10px 10px 10px 0
+}
+* html .RadScheduler_Tacoma div.rsAdvancedModal div.rsAdvContentWrapper {
+    margin-top: -2px;
+    background: #fff;
+    border: 1px solid #9bafca
+}
+.RadScheduler_Tacoma .rsAdvancedEdit .rsAdvInput,
+.RadScheduler_Tacoma .rsAdvancedEdit select,
+.RadScheduler_Tacoma .rsAdvancedEdit .textareaWrapper {
+    border-color: #abc1de
+}
+.RadScheduler_Tacoma .rsAdvancedEdit .rsInvalid textarea,
+.RadScheduler_Tacoma .rsAdvancedEdit .rsInvalid input,
+.RadScheduler_Tacoma .rsAdvancedEdit .rsAdvTimePicker .riEmpty {
+    background-image: url('Input/sprite.gif')
+}
+.RadScheduler_Tacoma .rsAdvancedEdit .textareaWrapper {
+    background: #fff
+}
+.RadScheduler_Tacoma .rsAdvancedEdit .rsInvalid {
+    border-color: #F32800;
+    color: #F32800
+}
+.RadScheduler_Tacoma .rsAdvancedEdit h2,
+.RadScheduler_Tacoma .rsAdvancedEdit h3 {
+    color: #6d8ebb
+}
+.RadScheduler_Tacoma .rsAdvancedEdit h2 {
+    border-bottom: 1px solid #CCC
+}
+.RadScheduler_Tacoma .rsAdvancedEdit h2 span {
+    background: #fff
+}
+.RadScheduler_Tacoma .rsAdvancedEdit .rsAdvancedSubmitArea {
+    border-color: #CCC
+}
+.RadScheduler_Tacoma .rsAdvancedEdit div.rsAdvancedSubmitArea a {
+    color: #333;
+    background-image: url('Scheduler/rsSprites.png');
+}
+.RadScheduler_Tacoma .rsTimePick .RadInput_Tacoma input.riEnabled,
+.RadScheduler_Tacoma .rsTimePick .RadInput_Tacoma input.riHover,
+.RadScheduler_Tacoma .rsTimePick .RadInput_Tacoma input.riFocused {
+    background-image: url('Scheduler/rsSprites.png')
+}
+.RadScheduler_Tacoma .rsModalBgTopLeft,
+.RadScheduler_Tacoma .rsModalBgTopRight,
+.RadScheduler_Tacoma .rsModalBgBottomLeft,
+.RadScheduler_Tacoma .rsModalBgBottomRight {
+    background-image: url('Scheduler/rsModalBg.png');
+    _background-image: url('Scheduler/rsModalBgIE6.png');
+}
+.RadScheduler_Tacoma .rsAnimating {
+    background-image: url('Scheduler/rsModalBgIE6.png')
+}
+.RadScheduler_Tacoma .rsAdvancedEdit .rsAdvTitle,
+.RadScheduler_Tacoma .rsAdvancedEdit .rsAdvInnerTitle {
+    background-image: url('Scheduler/rsModalTitleBg.png')
+}
+.RadScheduler_Tacoma .rsAdvancedEdit a.rsAdvEditClose,
+.RadScheduler_Tacoma div.rsModalWrapper .rsModalWindowClose {
+    background-image: url('Scheduler/rsSprites.png');
+    height: 19px;
+    margin-top: -26px;
+    width: 30px
+}
+.RadScheduler_Tacoma div.rsModalWrapper .rsModalWindowClose {
+    margin-top: -24px
+}
+.RadScheduler_Tacoma .rsAdvancedEdit a.rsAdvEditClose:hover,
+.RadScheduler_Tacoma .rsModalWrapper a.rsModalWindowClose:hover {
+    background-position: -78px -526px
+}
+.RadScheduler_Tacoma .rsModalWrapper .rsModalTitle {
+    color: #000;
+    background-image: url('Scheduler/rsSprites.png')
+}
+.RadScheduler_Tacoma .rsModalWrapper .rsModalInner {
+    border-color: #688caf;
+    background: #fff
+}
+.RadScheduler_Tacoma .rsModalWrapper .rsModalIcon,
+.RadScheduler_Tacoma .rsModalWrapper .rsModalButtons a {
+    background-image: url('Scheduler/rsSprites.png')
+}
+.RadScheduler_Tacoma .rsModalWrapper .rsModalButtons a,
+.RadScheduler_Tacoma .rsTopWrap .rsAptEditFormWrapper .rsEditOptions a {
+    color: #333
+}
+.RadScheduler_Tacoma .rsBottomIndicator .rsOvertimeArrow {
+    background: transparent url('Scheduler/rsSprites.png') no-repeat -180px -31px
+}
+.RadScheduler_Tacoma .rsTopIndicator .rsOvertimeArrow {
+    background: transparent url('Scheduler/rsSprites.png') no-repeat -134px -31px
+}
+.RadScheduler_Tacoma .rsAptSelected .rsAptIn,
+.RadScheduler_Tacoma .rsAptSelected .rsAptMid,
+.RadScheduler_Tacoma .rsAptSelected .rsAptContent {
+    border-color: #000f4f;
+    background-image: none
+}
+.RadScheduler_Tacoma .rsAgendaView {
+    color: #333;
+    background-color: #fff
+}
+.RadScheduler_Tacoma .rsAgendaView .rsAptContent {
+    color: inherit
+}
+.RadScheduler_Tacoma .rsAgendaView .rsDateBox small {
+    color: #567db0
+}
+.RadScheduler_Tacoma .rsAgendaTable th,
+.RadScheduler_Tacoma .rsAgendaTable td {
+    border-bottom-color: #d0d7e5;
+    border-right-color: #d0d7e5
+}
+.RadScheduler_Tacoma .rsAgendaTable th {
+    color: White;
+    background-color: #e3efff
+}
+.RadScheduler_Tacoma .rsAgendaTable .rsAgendaRowHovered {
+    border-color: #d8ca95;
+    color: #00156e;
+    background-color: #ffe18a;
+    background-image: -webkit-linear-gradient(top, #fffce8 0, #ffe18a 100%);
+    background-image: -moz-linear-gradient(top, #fffce8 0, #ffe18a 100%);
+    background-image: -ms-linear-gradient(top, #fffce8 0, #ffe18a 100%);
+    background-image: -o-linear-gradient(top, #fffce8 0, #ffe18a 100%);
+    background-image: linear-gradient(top, #fffce8 0, #ffe18a 100%)
+}
+.RadScheduler_Tacoma .rsAgendaTable .rsAgendaRowSelected {
+    border-color: #8f8267;
+    color: black;
+    background-color: #fde292;
+    background-image: -webkit-linear-gradient(top, #fdd3a7 0, #fde292 100%);
+    background-image: -moz-linear-gradient(top, #fdd3a7 0, #fde292 100%);
+    background-image: -ms-linear-gradient(top, #fdd3a7 0, #fde292 100%);
+    background-image: -o-linear-gradient(top, #fdd3a7 0, #fde292 100%);
+    background-image: linear-gradient(top, #fdd3a7 0, #fde292 100%)
+}
+div.RadScheduler_Tacoma .rsHeader {
+    background-image: none;
+    background-color: rgb(93, 122, 148);
+}
+div.RadScheduler_Tacoma .rsHeader a {
+    color: rgb(0, 0, 0);
+}
+div.RadScheduler_Tacoma .rsHeader .rsSelected em {
+    color: rgb(0, 0, 0);
+}
+div.RadScheduler_Tacoma .rsHorizontalHeaderTable th {
+    background-color: rgb(92, 121, 147);
+    background-image: none;
+    color: rgb(255, 255, 255);
+}
+div.RadScheduler_Tacoma .rsHorizontalHeaderTable th a {
+    color: rgb(255, 255, 255);
+}
+div.RadScheduler_Tacoma .rsMonthView .rsDateBox {
+    background-image: none;
+    background-color: rgb(93, 122, 148);
+}
+div.RadScheduler_Tacoma .rsMonthView .rsDateBox a {
+    color: White;
+}
+div.RadScheduler_Tacoma .rsMonthView .rsOtherMonth {
+    background-color: rgb(228, 228, 228);
+}
+div.RadScheduler_Tacoma .rsAptIn {
+    background-color: rgb(255, 201, 14);
+    color: Black;
+}
+div.RadScheduler_Tacoma .rsApt .rsCategoryBlue {
+    background-color: rgb(255, 201, 14);
+    color: white;
+}
+div.RadScheduler_Tacoma .rsHeader {
+    background-color: rgb(255, 255, 255);
+}
+div.RadScheduler_Tacoma .rsContentTable td {
+    border-right-color: rgb(102, 0, 0);
+    border-bottom-color: rgb(232, 234, 236);
+    background-color: rgb(255, 255, 255);
+}

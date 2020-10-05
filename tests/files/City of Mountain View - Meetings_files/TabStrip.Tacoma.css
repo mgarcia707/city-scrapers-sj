@@ -1,0 +1,183 @@
+
+body.tacoma_ *:focus {
+    outline: 2px red double !important;
+}
+
+.RadTabStrip_Tacoma #ctl00_hypSignIn {
+    background-color: #334460;
+}
+.RadTabStrip_Tacoma {
+    color: black;
+    font: 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 26px;
+}
+.RadTabStrip_Tacoma .rtsGhostTab {
+    border-color: #003d8d;
+    border-radius: 5px;
+    color: #000020;
+    background-color: #1c5aa0;
+}
+.RadTabStrip_Tacoma .rtsLevel {
+    background: #1c5aa0;
+}
+.RadTabStrip_Tacoma .rtsLink {
+    padding-left: 0px;
+}
+.RadTabStrip_Tacoma .rtsLI .rtsLink {
+    padding-left: 9px;
+}
+.RadTabStrip_Tacoma .rtsLevel .rtsLI .rtsLink.rtsSelected {
+    padding-left: 9px;
+    background-image: url('TabStrip/tabBackWhite.png');
+    background-size: 100% 100%;
+    background-color: white;
+    color: black;
+}
+.RadTabStrip_Tacoma .rtsLevel.rtsLevel2,
+.RadTabStrip_Tacoma .rtsLevel.rtsLevel3 {
+    background-color: #1c5aa0;
+    background-image: url('TabStrip/Level2Bg.png');
+    background-repeat: repeat-x;
+}
+.RadTabStrip_Tacoma .rtsLI,
+.RadTabStrip_Tacoma .rtsLink {
+    color: white;
+    font: 16px/26px "Segoe UI", Arial, Helvetica, sans-serif;
+}
+.RadTabStrip_Tacoma .rtsLink {
+    background-image: none;
+}
+.RadTabStrip_Tacoma .rtsLevel .rtsLI {
+    background-color: white;
+    background-image: url('TabStrip/tabBack.png');
+    background-size: 100% 100%;
+    margin-right: 1px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 1px;
+    border-color: #4e6381;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+.RadTabStrip_Tacoma .rtsLevel1 .rtsLink .rtsOut .rtsIn .rtsTxt {
+    background-color: #4e6381;
+}
+.RadTabStrip_Tacoma .rtsLevel1 .rtsLink.rtsSelected .rtsOut .rtsIn .rtsTxt {
+    background-color: white;
+}
+.RadTabStrip_Tacoma .rtsLevel1 {
+    background-color: #0f5ab1;
+    background-image: url('TabStrip/TabStripStates.png');
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+}
+.RadTabStrip_Tacoma .rtsLevel1 .rtsSelected,
+.RadTabStrip_Tacoma .rtsLevel1 .rtsSelected:hover {
+    text-decoration: none;
+}
+.RadTabStrip_Tacoma .rtsLevel1 .rtsLink:hover .rtsOut {
+    text-decoration: underline;
+}
+.RadTabStrip_Tacoma .rtsLevel1 .rtsDisabled {
+    color: #8d8d8d;
+}
+.RadTabStrip_Tacoma .rtsLevel1 .rtsDisabled:hover {
+    background-position: 0 0;
+    text-decoration: none;
+}
+.RadTabStrip_Tacoma .rtsLevel2 {
+    background-position: 0 0;
+}
+.RadTabStrip_Tacoma .rtsLevel3 {
+    background-position: 0 -26px;
+}
+.RadTabStrip_Tacoma .rtsNextArrow,
+.RadTabStrip_Tacoma .rtsPrevArrow,
+.RadTabStrip_Tacoma .rtsPrevArrowDisabled,
+.RadTabStrip_Tacoma .rtsNextArrowDisabled {
+    background-image: url('TabStrip/TabStripStates.png');
+}
+.RadTabStrip_Tacoma.RadTabStripVertical .rtsLevel1 {
+    background-image: none;
+}
+.RadTabStrip_Tacoma.RadTabStripVertical .rtsLevel2 {
+    background-image: none;
+}
+.RadTabStrip_Tacoma.RadTabStripVertical .rtsLevel3 {
+    background-image: none;
+}
+.RadTabStripBottom_Tacoma .rtsLevel.rtsLevel2,
+.RadTabStripBottom_Tacoma .rtsLevel.rtsLevel3 {
+    background-image: none;
+}
+.RadTabStripBottom_Tacoma .rtsLevel1 {
+    background-position: 0 -599px;
+    background-repeat: repeat-x;
+}
+.RadTabStripBottom_Tacoma .rtsLevel2 {
+    background-image: none;
+}
+.RadTabStripBottom_Tacoma .rtsLevel3 {
+    background-image: none;
+}
+.RadTabStripLeft_Tacoma .rtsLevel1 .rtsDisabled:hover {
+    background-position: 100% 0;
+}
+.RadTabStripLeft_Tacoma .rtsSeparator {
+    background: #6f6f6f;
+}
+.RadTabStripRight_Tacoma .rtsLevel1 .rtsLink {
+    background-position: 100% 0;
+}
+.RadTabStripRight_Tacoma .rtsLevel1 .rtsDisabled:hover {
+    background-position: 100% 0;
+}
+.RadTabStripRight_Tacoma .rtsSeparator {
+    background: #6f6f6f;
+}
+html .RadTabStrip_Tacoma_disabled .rtsLevel1 .rtsLink {
+    color: #8d8d8d;
+    cursor: default;
+}
+div.RadTabStrip_Tacoma a.rtsLink:focus {
+    outline-color: #6f6f6f;
+}
+div.RadTabStrip_Tacoma a.rtsLink:focus:after {
+    border-color: #6f6f6f;
+}
+.rtsDropClue_Tacoma {
+    background-image: url('Common/rtsDropClueSprite.png');
+}
+.rtsDropClueTop_Tacoma {
+    background-position: 0 -20px;
+}
+.rtsDropClueRight_Tacoma {
+    background-position: 0 -30px;
+}
+.rtsDropClueBottom_Tacoma {
+    background-position: 0 0;
+}
+.rtsDropClueLeft_Tacoma {
+    background-position: 0 -10px;
+}
+div.RadTabStrip_Tacoma {
+    background-color: rgb(244, 245, 247);
+}
+div.RadTabStrip_Tacoma .rtsLevel1 {
+    background-image: none;
+    background-color: rgb(242, 244, 247);
+    background-repeat: repeat-x;
+}
+div.RadTabStrip_Tacoma {
+    background-color: rgb(255, 255, 255);
+}
+div.RadTabStrip_Tacoma .rtsLevel1 {
+    background-color: rgb(255, 255, 255);
+}
+div.RadTabStrip_Tacoma .rtsLink {
+    color: rgb(255, 255, 255);
+}
+div.RadTabStrip_Tacoma .rtsDisabled {
+    color: rgb(255, 51, 0);
+}

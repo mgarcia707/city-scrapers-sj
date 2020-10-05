@@ -1,0 +1,26 @@
+﻿html body.tacoma_ tr td span.PopUpMessageLabel {
+    color: black !important;
+}
+html body.tacoma_ table tbody tr td a.rmLink.rmRootLink.rmDisabled,
+html body.tacoma_ table tbody tr td ul .rmRootGroup,
+html body.tacoma_ table tbody tr td ul .rmItem {
+    color: white !important;
+    background-image : none !important;
+}
+html body.tacoma_ table tbody tr td div .rmRootGroup.rmHorizontal {
+    background-image : none !important;
+}
+html body.tacoma_ table tbody tr td .RadMenu ul.rmRootGroup.rmHorizontal li.rmItem.rmLast{
+    background-image : none !important;
+}
+html body.tacoma_ form div div div table tbody tr td div div.RadPageView table tbody tr td a {
+    color: #525252 !important;
+}
+
+
+html body.tacoma_ .videoFileNotAvailableLink, 
+html body.tacoma_ .videoStatusNotAvailableLink, 
+html body.tacoma_ .recordingNotAvailableLink
+{
+    visibility:hidden  !important;
+}
