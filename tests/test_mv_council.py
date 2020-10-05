@@ -11,9 +11,7 @@ freezer = freeze_time("2020-09-01")
 freezer.start()
 
 with open(
-    join(dirname(__file__), "files", "City of Mountain View - Meetings.htm"),
-    "r",
-    encoding="utf-8",
+    join(dirname(__file__), "files", "mv_council.json"), "r", encoding="utf-8",
 ) as f:
     test_response = json.load(f)
 
