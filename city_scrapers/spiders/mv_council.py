@@ -1,6 +1,7 @@
 import re
 from datetime import datetime, timedelta
-from city_scrapers_core.constants import FORUM, CITY_COUNCIL
+
+from city_scrapers_core.constants import CITY_COUNCIL, FORUM
 from city_scrapers_core.items import Meeting
 from city_scrapers_core.spiders import LegistarSpider
 
