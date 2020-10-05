@@ -8,15 +8,10 @@ from freezegun import freeze_time
 
 from city_scrapers.spiders.mv_council import MvCouncilSpider
 
-freezer = freeze_time("2020-09-01")
+freezer = freeze_time("2020-10-05")
 freezer.start()
 
-with open(
-    join(
-        dirname(__file__),
-        "files",
-        "City of Mountain View - Meetings.htm"), "r", encoding="utf-8"
-) as f:
+with open(join(dirname(__file__), "files", "mv_council2.json"), "r", encoding="utf-8") as f:
     test_response = json.load(f)
 
 spider = MvCouncilSpider()
@@ -28,6 +23,7 @@ freezer.stop()
 def test_tests():
     print("Please write some tests for this spider or at least disable this one.")
     assert False
+
 
 """
 Uncomment below
@@ -49,18 +45,18 @@ def test_end():
     assert parsed_items[0]["end"] == datetime(2019, 1, 1, 0, 0)
 
 
-# def test_time_notes():
-#     assert parsed_items[0]["time_notes"] == "EXPECTED TIME NOTES"
-#
-#
-# def test_id():
-#     assert parsed_items[0]["id"] == "EXPECTED ID"
-#
-#
-# def test_status():
-#     assert parsed_items[0]["status"] == "EXPECTED STATUS"
-#
-#
+def test_time_notes():
+    assert parsed_items[0]["time_notes"] == "EXPECTED TIME NOTES"
+
+
+def test_id():
+    assert parsed_items[0]["id"] == "EXPECTED ID"
+
+
+def test_status():
+    assert parsed_items[0]["status"] == "EXPECTED STATUS"
+
+
 # def test_location():
 #     assert parsed_items[0]["location"] == {
 #         "name": "EXPECTED NAME",
