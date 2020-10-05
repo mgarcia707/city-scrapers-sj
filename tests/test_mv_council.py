@@ -20,9 +20,9 @@ parsed_items = [item for item in spider.parse_legistar(test_response)]
 freezer.stop()
 
 
-def test_tests():
-    print("Please write some tests for this spider or at least disable this one.")
-    assert False
+# def test_tests():
+#     print("Please write some tests for this spider or at least disable this one.")
+#     assert False
 
 
 """
