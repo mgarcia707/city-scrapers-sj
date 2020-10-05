@@ -12,7 +12,10 @@ freezer = freeze_time("2020-09-01")
 freezer.start()
 
 with open(
-    join(dirname(__file__), "files", "City of Mountain View - Meetings.htm"), "r", encoding="utf-8"
+    join(
+        dirname(__file__),
+        "files",
+        "City of Mountain View - Meetings.htm"), "r", encoding="utf-8"
 ) as f:
     test_response = json.load(f)
 
@@ -26,25 +29,24 @@ def test_tests():
     print("Please write some tests for this spider or at least disable this one.")
     assert False
 
-
 """
 Uncomment below
 """
 
- def test_title():
-     assert parsed_items[0]["title"] == "EXPECTED TITLE"
+def test_title():
+    assert parsed_items[0]["title"] == "EXPECTED TITLE"
 
 
- def test_description():
-     assert parsed_items[0]["description"] == "EXPECTED DESCRIPTION"
+def test_description():
+    assert parsed_items[0]["description"] == "EXPECTED DESCRIPTION"
 
 
- def test_start():
-     assert parsed_items[0]["start"] == datetime(2019, 1, 1, 0, 0)
+def test_start():
+    assert parsed_items[0]["start"] == datetime(2019, 1, 1, 0, 0)
 
 
- def test_end():
-     assert parsed_items[0]["end"] == datetime(2019, 1, 1, 0, 0)
+def test_end():
+    assert parsed_items[0]["end"] == datetime(2019, 1, 1, 0, 0)
 
 
 # def test_time_notes():
