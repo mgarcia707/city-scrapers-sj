@@ -10,7 +10,6 @@ from city_scrapers.spiders.mv_council import MvCouncilSpider
 freezer = freeze_time("2020-10-05")
 freezer.start()
 
-
 with open(
     join(dirname(__file__), "files", "mv_council.json"), "r", encoding="utf-8",
 ) as f:
