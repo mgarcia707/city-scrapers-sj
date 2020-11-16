@@ -8,9 +8,9 @@ from city_scrapers_core.spiders import LegistarSpider
 
 class MvCouncilSpider(LegistarSpider):
     name = "mv_council"
-    agency = "Mountain View City Council"
+    agency = "San Jose City Council"
     timezone = "America/Los_Angeles"
-    start_urls = ["https://mountainview.legistar.com/Calendar.aspx"]
+    start_urls = ["https://sanjose.legistar.com/Calendar.aspx"]
     # Add the titles of any links not included in the scraped results
     link_types = ["Agenda"]
 
